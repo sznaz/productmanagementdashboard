@@ -49,14 +49,14 @@ Create a `.env` file inside the `server` folder.
 
 ```env
 PORT=3000
-MONGODB_URI=your_mongodb_connection_string
+MONGO_URI=your_mongodb_connection_string
 ```
 
 Example:
 
 ```env
 PORT=3000
-MONGODB_URI=mongodb://localhost:27017/product-dashboard
+MONGO_URI=mongodb://localhost:27017/product-dashboard
 ```
 
 ## Start backend
