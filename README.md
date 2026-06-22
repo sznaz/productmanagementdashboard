@@ -201,3 +201,27 @@ Visit:
 ```bash
 http://localhost:5173
 ```
+
+# Initial Setup
+
+Before creating a product, you must first create at least one category because products are associated with categories.
+
+Create a Category
+
+Send a POST request to:
+
+POST /api/category
+
+Request Body:
+
+{
+  "name": "Electronics"
+}
+
+Example using cURL:
+
+curl --location 'http://localhost:3000/api/category' \
+--header 'Content-Type: application/json' \
+--data '{
+    "name": "Electronics"
+}'
